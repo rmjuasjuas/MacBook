@@ -1,8 +1,8 @@
 # MacBook Pro M1 Max — Interactive Landing Page
 
-Una experiencia web interactiva inspirada en el diseño de **Apple**, con animación fluida en `<canvas>` controlada por el desplazamiento del usuario (*scrollytelling*), transiciones tipográficas, contadores numéricos dinámicos y diseño responsivo.
+Una experiencia web interactiva inspirada en el diseño de Apple, con animación fluida en `<canvas>` controlada por el desplazamiento del usuario (scrollytelling), transiciones tipográficas, contadores numéricos dinámicos y diseño responsivo.
 
-Construida con **Vanilla JavaScript**, sin librerías externas ni dependencias pesadas.
+Construida con Vanilla JavaScript, sin librerías externas ni dependencias pesadas.
 
 ---
 
@@ -12,7 +12,7 @@ Construida con **Vanilla JavaScript**, sin librerías externas ni dependencias p
 - **Preloader interactivo:** Barra de carga con porcentaje en tiempo real para precargar las imágenes antes de iniciar la experiencia.
 - **Contadores numéricos animados:** Estadísticas de rendimiento (RAM unificada, almacenamiento, núcleos de GPU y CPU) que se incrementan automáticamente al llegar a su sección.
 - **Marquees dinámicos:** Cintas de texto continuo con especificaciones técnicas destacadas.
-- **Estilo visual Apple:** Modo oscuro, tipografía SF Pro / DM Sans, efectos de desenfoque (*backdrop-filter*) y transiciones suaves.
+- **Estilo visual Apple:** Modo oscuro, tipografía SF Pro / DM Sans, efectos de desenfoque (backdrop-filter) y transiciones suaves.
 - **100% Vanilla:** Desarrollado sin frameworks para máxima ligereza y rendimiento.
 
 ---
@@ -44,12 +44,12 @@ MacBook/
 
 ---
 
-## 👤 Autor
+## Autor
 
-Desarrollado por **[Jose Rios / rmjuasjuas](https://github.com/rmjuasjuas)**.
+Jose Rios / [rmjuasjuas](https://github.com/rmjuasjuas)
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto fue desarrollado con fines educativos y de práctica de desarrollo web front-end. Inspirado en el diseño y presentaciones de producto de Apple Inc.
