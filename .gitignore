@@ -1,0 +1,13 @@
+# Herramienta FFmpeg y ejecutables
+ffmpeg-*/
+*.exe
+
+# Configuraciones de VS Code
+.vscode/
+
+# Video fuente original (opcional pero recomendado)
+MacBookProM1&Max.mp4
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store

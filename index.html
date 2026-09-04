@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MacBook Pro M1 Max — Poder sin límites</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;600;700&family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-inner">
+      <svg class="loader-logo" viewBox="0 0 24 24" fill="white" width="48" height="48">
+        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.15-2.18 1.27-2.16 3.8.03 3.02 2.65 4.03 2.68 4.04l-.07.28zM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+      </svg>
+      <div class="loader-bar-wrap">
+        <div class="loader-bar" id="loaderBar"></div>
+      </div>
+      <p class="loader-text" id="loaderText">Cargando experiencia…</p>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header id="site-header">
+    <nav>
+      <svg class="nav-logo" viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98l-.09.06c-.22.15-2.18 1.27-2.16 3.8.03 3.02 2.65 4.03 2.68 4.04l-.07.28zM13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+      </svg>
+      <ul class="nav-links">
+        <li><a href="#">Mac</a></li>
+        <li><a href="#">Chip M1 MAX</a></li>
+        <li><a href="#">Especificaciones</a></li>
+        <li><a href="#" class="nav-cta">Comprar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Nuevo</p>
+      <h1 class="hero-title">MacBook Pro</h1>
+      <p class="hero-subtitle">Chip M1 Max · 64 GB · 512 Almacenamiento</p>
+      <p class="hero-desc">El portátil más potente jamás creado.<br>Para los que no aceptan límites.</p>
+      <div class="hero-cta-group">
+        <a href="#" class="btn-primary">Comprar</a>
+        <a href="#" class="btn-ghost">Conocer más ↓</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Desplázate</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- CANVAS WRAP -->
+  <div id="canvas-section">
+    <div class="canvas-wrap">
+      <canvas id="macbook-canvas"></canvas>
+    </div>
+
+    <!-- SCROLL CONTAINER -->
+    <div id="scroll-container">
+
+      <!-- SECTION 1: Chip -->
+      <div class="scroll-section align-left"
+           data-enter="0.08" data-leave="0.22" data-animation="fade-up">
+        <div class="section-inner">
+          <span class="tag">Rendimiento</span>
+          <h2 class="section-title">Chip M1 Max.<br>Sin igual.</h2>
+          <p class="section-body">Con hasta 10 núcleos de CPU y 32 núcleos de GPU, el M1 Max redefine lo que un portátil puede lograr. Tareas que antes requerían horas, ahora se completan en minutos.</p>
+        </div>
+      </div>
+
+      <!-- MARQUEE 1 -->
+      <div class="marquee-section" data-enter="0.20" data-leave="0.34">
+        <div class="marquee-wrap" id="marquee1">
+          <span>M1 pro &nbsp;·&nbsp; 32 GB RAM &nbsp;·&nbsp; 512 GB SSD &nbsp;·&nbsp; 16 GPU CORES &nbsp;·&nbsp; M1 MAX &nbsp;·&nbsp; 64 GB RAM &nbsp;·&nbsp; 8 TB SSD &nbsp;·&nbsp; 32 GPU CORES &nbsp;·&nbsp;</span>
+        </div>
+      </div>
+
+      <!-- SECTION 2: Memoria -->
+      <div class="scroll-section align-right"
+           data-enter="0.28" data-leave="0.42" data-animation="slide-left">
+        <div class="section-inner">
+          <span class="tag">Memoria unificada</span>
+          <h2 class="section-title">16 GB.<br>Piensa<br>a escala.</h2>
+          <p class="section-body">La memoria unificada elimina los cuellos de botella. Modelos de IA, renders 3D, edición de video 8K — todo al mismo tiempo, sin fricción.</p>
+        </div>
+      </div>
+
+      <!-- STATS DARK OVERLAY -->
+      <div class="stats-section" data-enter="0.42" data-leave="0.58">
+        <div class="stats-overlay"></div>
+        <div class="stats-content">
+          <p class="stats-eyebrow">Números que importan</p>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <span class="stat-num" data-target="128">0</span>
+              <span class="stat-unit">GB</span>
+              <p class="stat-label">RAM unificada</p>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="4">0</span>
+              <span class="stat-unit">TB</span>
+              <p class="stat-label">Almacenamiento</p>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="40">0</span>
+              <span class="stat-unit">núcleos</span>
+              <p class="stat-label">GPU integrada</p>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="16">0</span>
+              <span class="stat-unit">núcleos</span>
+              <p class="stat-label">CPU de última gen</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MARQUEE 2 -->
+      <div class="marquee-section marquee-reverse" data-enter="0.55" data-leave="0.70">
+        <div class="marquee-wrap" id="marquee2">
+          <span>POWER &nbsp;·&nbsp; PRECISION &nbsp;·&nbsp; PERFORMANCE &nbsp;·&nbsp; PRO &nbsp;·&nbsp; POWER &nbsp;·&nbsp; PRECISION &nbsp;·&nbsp; PERFORMANCE &nbsp;·&nbsp; PRO &nbsp;·&nbsp;</span>
+        </div>
+      </div>
+
+      <!-- SECTION 3: Pantalla -->
+      <div class="scroll-section align-left"
+           data-enter="0.62" data-leave="0.76" data-animation="scale-up">
+        <div class="section-inner">
+          <span class="tag">Liquid Retina XDR</span>
+          <h2 class="section-title">Una pantalla<br>que lo cambia<br>todo.</h2>
+          <p class="section-body">1.000 nits de brillo máximo. ProMotion a 120Hz. Negro más profundo que cualquier otra pantalla de portátil. Cada píxel, perfecto.</p>
+        </div>
+      </div>
+
+      <!-- SECTION 4: CTA FINAL -->
+      <div class="cta-final" data-enter="0.80" data-leave="1.0" data-persist="true">
+        <div class="cta-inner">
+          <p class="cta-eyebrow">MacBook Pro M1 Max</p>
+          <h2 class="cta-title">El pro que<br>necesitas.</h2>
+          <p class="cta-price">Desde <strong>$3,999</strong> USD</p>
+          <div class="cta-buttons">
+            <a href="#" class="btn-primary large">Comprar ahora</a>
+            <a href="#" class="btn-ghost large">Ver especificaciones</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /scroll-container -->
+  </div><!-- /canvas-section -->
+
+  <script src="js/app.js"></script>
+</body>
+</html>
